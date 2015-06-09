@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="ChibiOS"
+                   displayName="ChibiOS"
+                   projectFiles="true"
+                   root="../ChibiOS">
+      <logicalFolder name="os" displayName="os" projectFiles="true">
+        <logicalFolder name="common" displayName="common" projectFiles="true">
+          <logicalFolder name="ports" displayName="ports" projectFiles="true">
+            <logicalFolder name="ARMCMx" displayName="ARMCMx" projectFiles="true">
+              <logicalFolder name="compilers" displayName="compilers" projectFiles="true">
+                <logicalFolder name="GCC" displayName="GCC" projectFiles="true">
+                  <itemPath>../ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt1.c</itemPath>
+                  <itemPath>../ChibiOS/os/common/ports/ARMCMx/compilers/GCC/vectors.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="hal" displayName="hal" projectFiles="true">
+          <logicalFolder name="boards" displayName="boards" projectFiles="true">
+            <logicalFolder name="ST_STM32F4_DISCOVERY"
+                           displayName="ST_STM32F4_DISCOVERY"
+                           projectFiles="true">
+              <itemPath>../ChibiOS/os/hal/boards/ST_STM32F4_DISCOVERY/board.c</itemPath>
+              <itemPath>../ChibiOS/os/hal/boards/ST_STM32F4_DISCOVERY/board.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="lib" displayName="lib" projectFiles="true">
+            <logicalFolder name="streams" displayName="streams" projectFiles="true">
+              <itemPath>../ChibiOS/os/hal/lib/streams/chprintf.c</itemPath>
+              <itemPath>../ChibiOS/os/hal/lib/streams/chprintf.h</itemPath>
+              <itemPath>../ChibiOS/os/hal/lib/streams/memstreams.c</itemPath>
+              <itemPath>../ChibiOS/os/hal/lib/streams/memstreams.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="osal" displayName="osal" projectFiles="true">
+            <logicalFolder name="rt" displayName="rt" projectFiles="true">
+              <itemPath>../ChibiOS/os/hal/osal/rt/osal.c</itemPath>
+              <itemPath>../ChibiOS/os/hal/osal/rt/osal.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="ports" displayName="ports" projectFiles="true">
+            <logicalFolder name="common" displayName="common" projectFiles="true">
+              <logicalFolder name="ARMCMx" displayName="ARMCMx" projectFiles="true">
+                <itemPath>../ChibiOS/os/hal/ports/common/ARMCMx/nvic.c</itemPath>
+                <itemPath>../ChibiOS/os/hal/ports/common/ARMCMx/nvic.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="STM32" displayName="STM32" projectFiles="true">
+              <logicalFolder name="LLD" displayName="LLD" projectFiles="true">
+                <logicalFolder name="GPIOv2" displayName="GPIOv2" projectFiles="true">
+                  <itemPath>../ChibiOS/os/hal/ports/STM32/LLD/GPIOv2/pal_lld.c</itemPath>
+                  <itemPath>../ChibiOS/os/hal/ports/STM32/LLD/GPIOv2/pal_lld.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="SPIv1" displayName="SPIv1" projectFiles="true">
+                  <itemPath>../ChibiOS/os/hal/ports/STM32/LLD/SPIv1/spi_lld.c</itemPath>
+                  <itemPath>../ChibiOS/os/hal/ports/STM32/LLD/SPIv1/spi_lld.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="TIMv1" displayName="TIMv1" projectFiles="true">
+                  <itemPath>../ChibiOS/os/hal/ports/STM32/LLD/TIMv1/icu_lld.c</itemPath>
+                  <itemPath>../ChibiOS/os/hal/ports/STM32/LLD/TIMv1/icu_lld.h</itemPath>
+                  <itemPath>../ChibiOS/os/hal/ports/STM32/LLD/TIMv1/st_lld.c</itemPath>
+                  <itemPath>../ChibiOS/os/hal/ports/STM32/LLD/TIMv1/st_lld.h</itemPath>
+                  <itemPath>../ChibiOS/os/hal/ports/STM32/LLD/TIMv1/stm32_tim.h</itemPath>
+                </logicalFolder>
+                <logicalFolder name="USARTv1" displayName="USARTv1" projectFiles="true">
+                  <itemPath>../ChibiOS/os/hal/ports/STM32/LLD/USARTv1/serial_lld.c</itemPath>
+                  <itemPath>../ChibiOS/os/hal/ports/STM32/LLD/USARTv1/serial_lld.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="STM32F4xx" displayName="STM32F4xx" projectFiles="true">
+                <itemPath>../ChibiOS/os/hal/ports/STM32/STM32F4xx/adc_lld.c</itemPath>
+                <itemPath>../ChibiOS/os/hal/ports/STM32/STM32F4xx/adc_lld.h</itemPath>
+                <itemPath>../ChibiOS/os/hal/ports/STM32/STM32F4xx/hal_lld.c</itemPath>
+                <itemPath>../ChibiOS/os/hal/ports/STM32/STM32F4xx/hal_lld.h</itemPath>
+                <itemPath>../ChibiOS/os/hal/ports/STM32/STM32F4xx/stm32_dma.c</itemPath>
+                <itemPath>../ChibiOS/os/hal/ports/STM32/STM32F4xx/stm32_dma.h</itemPath>
+                <itemPath>../ChibiOS/os/hal/ports/STM32/STM32F4xx/stm32_isr.h</itemPath>
+                <itemPath>../ChibiOS/os/hal/ports/STM32/STM32F4xx/stm32_rcc.h</itemPath>
+                <itemPath>../ChibiOS/os/hal/ports/STM32/STM32F4xx/stm32_registry.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+            <itemPath>../ChibiOS/os/hal/src/adc.c</itemPath>
+            <itemPath>../ChibiOS/os/hal/src/hal.c</itemPath>
+            <itemPath>../ChibiOS/os/hal/src/hal_mmcsd.c</itemPath>
+            <itemPath>../ChibiOS/os/hal/src/hal_queues.c</itemPath>
+            <itemPath>../ChibiOS/os/hal/src/icu.c</itemPath>
+            <itemPath>../ChibiOS/os/hal/src/pal.c</itemPath>
+            <itemPath>../ChibiOS/os/hal/src/serial.c</itemPath>
+            <itemPath>../ChibiOS/os/hal/src/spi.c</itemPath>
+            <itemPath>../ChibiOS/os/hal/src/st.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="rt" displayName="rt" projectFiles="true">
+          <logicalFolder name="ports" displayName="ports" projectFiles="true">
+            <logicalFolder name="ARMCMx" displayName="ARMCMx" projectFiles="true">
+              <logicalFolder name="compilers" displayName="compilers" projectFiles="true">
+                <logicalFolder name="GCC" displayName="GCC" projectFiles="true">
+                  <itemPath>../ChibiOS/os/rt/ports/ARMCMx/compilers/GCC/chtypes.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <itemPath>../ChibiOS/os/rt/ports/ARMCMx/chcore.c</itemPath>
+              <itemPath>../ChibiOS/os/rt/ports/ARMCMx/chcore.h</itemPath>
+              <itemPath>../ChibiOS/os/rt/ports/ARMCMx/chcore_v7m.c</itemPath>
+              <itemPath>../ChibiOS/os/rt/ports/ARMCMx/chcore_v7m.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+            <itemPath>../ChibiOS/os/rt/src/chcond.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chdebug.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chdynamic.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chevents.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chheap.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chmboxes.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chmemcore.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chmempools.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chmsg.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chmtx.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chqueues.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chregistry.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chschd.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chsem.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chsys.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chthreads.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chtm.c</itemPath>
+            <itemPath>../ChibiOS/os/rt/src/chvt.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="various" displayName="various" projectFiles="true">
+          <logicalFolder name="devices_lib" displayName="devices_lib" projectFiles="true">
+            <logicalFolder name="accel" displayName="accel" projectFiles="true">
+              <itemPath>../ChibiOS/os/various/devices_lib/accel/lis302dl.c</itemPath>
+              <itemPath>../ChibiOS/os/various/devices_lib/accel/lis302dl.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>../ChibiOS/os/various/shell.c</itemPath>
+          <itemPath>../ChibiOS/os/various/shell.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="test" displayName="test" projectFiles="true">
+        <logicalFolder name="rt" displayName="rt" projectFiles="true">
+          <itemPath>../ChibiOS/test/rt/test.c</itemPath>
+          <itemPath>../ChibiOS/test/rt/test.h</itemPath>
+          <itemPath>../ChibiOS/test/rt/testbmk.c</itemPath>
+          <itemPath>../ChibiOS/test/rt/testbmk.h</itemPath>
+          <itemPath>../ChibiOS/test/rt/testdyn.c</itemPath>
+          <itemPath>../ChibiOS/test/rt/testdyn.h</itemPath>
+          <itemPath>../ChibiOS/test/rt/testevt.c</itemPath>
+          <itemPath>../ChibiOS/test/rt/testevt.h</itemPath>
+          <itemPath>../ChibiOS/test/rt/testheap.c</itemPath>
+          <itemPath>../ChibiOS/test/rt/testheap.h</itemPath>
+          <itemPath>../ChibiOS/test/rt/testmbox.c</itemPath>
+          <itemPath>../ChibiOS/test/rt/testmbox.h</itemPath>
+          <itemPath>../ChibiOS/test/rt/testmsg.c</itemPath>
+          <itemPath>../ChibiOS/test/rt/testmsg.h</itemPath>
+          <itemPath>../ChibiOS/test/rt/testmtx.c</itemPath>
+          <itemPath>../ChibiOS/test/rt/testmtx.h</itemPath>
+          <itemPath>../ChibiOS/test/rt/testpools.c</itemPath>
+          <itemPath>../ChibiOS/test/rt/testpools.h</itemPath>
+          <itemPath>../ChibiOS/test/rt/testqueues.c</itemPath>
+          <itemPath>../ChibiOS/test/rt/testqueues.h</itemPath>
+          <itemPath>../ChibiOS/test/rt/testsem.c</itemPath>
+          <itemPath>../ChibiOS/test/rt/testsem.h</itemPath>
+          <itemPath>../ChibiOS/test/rt/testsys.c</itemPath>
+          <itemPath>../ChibiOS/test/rt/testsys.h</itemPath>
+          <itemPath>../ChibiOS/test/rt/testthd.c</itemPath>
+          <itemPath>../ChibiOS/test/rt/testthd.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <df root="." name="0">
+      <in>main.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>GNU_ARM|GNU</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-O2 -ggdb"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -j 4 -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>build/ch.elf</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>.</pElem>
+              <pElem>../ChibiOS/os/common/ports/ARMCMx/devices/STM32F4xx</pElem>
+              <pElem>../ChibiOS/os/ext/CMSIS/include</pElem>
+              <pElem>../ChibiOS/os/ext/CMSIS/ST</pElem>
+              <pElem>../ChibiOS/os/rt/include</pElem>
+              <pElem>../ChibiOS/os/rt/ports/ARMCMx</pElem>
+              <pElem>../ChibiOS/os/rt/ports/ARMCMx/compilers/GCC</pElem>
+              <pElem>../ChibiOS/os/hal/osal/rt</pElem>
+              <pElem>../ChibiOS/os/hal/include</pElem>
+              <pElem>../ChibiOS/os/hal/ports/common/ARMCMx</pElem>
+              <pElem>../ChibiOS/os/hal/ports/STM32/STM32F4xx</pElem>
+              <pElem>../ChibiOS/os/hal/ports/STM32/LLD</pElem>
+              <pElem>../ChibiOS/os/hal/ports/STM32/LLD/DACv1</pElem>
+              <pElem>../ChibiOS/os/hal/ports/STM32/LLD/GPIOv2</pElem>
+              <pElem>../ChibiOS/os/hal/ports/STM32/LLD/I2Cv1</pElem>
+              <pElem>../ChibiOS/os/hal/ports/STM32/LLD/OTGv1</pElem>
+              <pElem>../ChibiOS/os/hal/ports/STM32/LLD/RTCv2</pElem>
+              <pElem>../ChibiOS/os/hal/ports/STM32/LLD/SPIv1</pElem>
+              <pElem>../ChibiOS/os/hal/ports/STM32/LLD/TIMv1</pElem>
+              <pElem>../ChibiOS/os/hal/ports/STM32/LLD/USARTv1</pElem>
+              <pElem>../ChibiOS/os/hal/ports/STM32/LLD/FSMCv1</pElem>
+              <pElem>../ChibiOS/os/hal/boards/ST_STM32F4_DISCOVERY</pElem>
+              <pElem>../ChibiOS/test/rt</pElem>
+              <pElem>../ChibiOS/os/various/devices_lib/accel</pElem>
+              <pElem>../ChibiOS/os/hal/lib/streams</pElem>
+              <pElem>../ChibiOS/os/various</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>CORTEX_USE_FPU=FALSE</Elem>
+              <Elem>THUMB</Elem>
+              <Elem>THUMB_NO_INTERWORKING</Elem>
+              <Elem>THUMB_PRESENT</Elem>
+            </preprocessorList>
+          </cTool>
+        </makeTool>
+      </makefileType>
+      <item path="../ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/common/ports/ARMCMx/compilers/GCC/vectors.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/boards/ST_STM32F4_DISCOVERY/board.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/lib/streams/chprintf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/lib/streams/memstreams.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/osal/rt/osal.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/ports/STM32/LLD/GPIOv2/pal_lld.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/ports/STM32/LLD/SPIv1/spi_lld.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/ports/STM32/LLD/TIMv1/icu_lld.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/ports/STM32/LLD/TIMv1/st_lld.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/ports/STM32/LLD/USARTv1/serial_lld.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/ports/STM32/STM32F4xx/adc_lld.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/ports/STM32/STM32F4xx/hal_lld.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/ports/STM32/STM32F4xx/stm32_dma.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/ports/common/ARMCMx/nvic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/src/adc.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/src/hal.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/src/hal_mmcsd.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/src/hal_queues.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/src/icu.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/src/pal.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/src/serial.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/src/spi.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/hal/src/st.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/ports/ARMCMx/chcore.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/ports/ARMCMx/chcore_v7m.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chcond.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chdebug.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chdynamic.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chevents.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chheap.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chmboxes.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chmemcore.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chmempools.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chmsg.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chmtx.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chqueues.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chregistry.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chschd.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chsem.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chsys.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chthreads.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chtm.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/rt/src/chvt.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/various/devices_lib/accel/lis302dl.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/os/various/shell.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/test/rt/test.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/test/rt/testbmk.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/test/rt/testdyn.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/test/rt/testevt.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/test/rt/testheap.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/test/rt/testmbox.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/test/rt/testmsg.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/test/rt/testmtx.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/test/rt/testpools.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/test/rt/testqueues.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/test/rt/testsem.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/test/rt/testsys.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../ChibiOS/test/rt/testthd.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
